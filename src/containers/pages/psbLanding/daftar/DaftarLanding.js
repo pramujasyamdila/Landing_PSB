@@ -36,8 +36,8 @@ const DaftarLanding = () => {
         {!isSubmit ? (
           <FormDaftar submitForm={submitForm} />
         ) : (
-          <FormSukses/>
-        )}
+            <FormSukses />
+          )}
       </div>
     </>
   );

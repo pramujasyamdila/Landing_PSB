@@ -6,10 +6,10 @@ import { dataHeroSatu, dataHeroDua } from './HeroData'
 const PsbLanding = () => {
     return (
         <>
-            <NavbarLanding/>
-            <HeroLanding {...dataHeroSatu}/>
+            <NavbarLanding />
+            <HeroLanding {...dataHeroSatu} />
             <HeroLanding {...dataHeroDua} />
-            <FooterLanding/>
+            <FooterLanding />
         </>
     )
 }
